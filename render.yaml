@@ -9,6 +9,7 @@
 
 services:
   - type: web
+    region: singapore
     plan: free
     # This is the runtime for services that pull a prebuilt Docker image
     runtime: image
